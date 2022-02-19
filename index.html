@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2f8edec82e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+       <nav>
+           <a href="index.html"><img src="logo.jpg" alt=""></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="HideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+       </nav>
+       <div class="text-box">
+           <h1>Pareek's University</h1>
+           <p>Acieve Your Dreams Succesfully here in this University.</p>
+           <a href="" class="hero-btn">Click Here For More</a>
+       </div>
+    </section>
+
+    <!-- Course Section -->
+    <section class="course">
+        <h1>Provide Professional Courses</h1>
+        <p>You can learn according to your interest</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Engineering</h3>
+                <p>Employability. During an engineering degree, you practise all the skills that will be vital both in the workplace and in everyday life.</p>
+             
+                
+            </div>
+            <div class="course-col">
+            <h3>Pharmacy</h3>
+            <p>Medical benefit drugs are ones that are injected or infused by a healthcare professional in an out-patient clinic or infusion centers. </p>
+        </div>
+        <div class="course-col">
+            <h3>Law</h3>
+            <p>Medical and dental plans.Short- and long-term disability plans.Health care reimbursement account through pre-tax
+                deductions.</p>
+        </div>
+        
+    </div>
+    </section>
+    <!-- campus -->
+    <section class="campus">
+        <h1>Campus We Provide</h1>
+        <p>Here's Most Amazing Campus in World</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="london.jpg" alt="">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="England.jpg" alt="">
+                <div class="layer">
+                    <h3>England</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="hongkong.jpg" alt="">
+                <div class="layer">
+                    <h3>Paris</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Superb Facilities Here</h1>
+        <p>Enjoy Our Facilities and enjoy Your life But with Study</p>
+        <div class="row">
+           
+            <div class="fac-col">
+                <img src="swimmingpool.jpg" alt="">
+                <h1>Biggest swimming pool</h1>
+                <p>Swim and enjoy your life here free of cost</p>
+            </div>
+            <div class="fac-col">
+                <img src="library.jpg" alt="">
+                <h1>Biggest Library</h1>
+                <p>Read Your favourite Books here free of cost </p>
+            </div>
+            <div class="fac-col">
+                <img src="cafe.jpg" alt="">
+                <h1>Biggest cafe</h1>
+                <p>Enjoy Your coffee with your partner but its not free </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1>What Our Student Says About us ?</h1>
+        <p>Our Student ratings are here and also you can give</p>
+        <div class="row">
+            <div class="tes-col">
+                <img src="user1.jpg" alt="">
+                <div>
+                <p>I am here to review this University</p>
+                <h3>Krishna Pareek</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            </div>
+            <div class="tes-col">
+                <img src="user2.jpg" alt="">
+                <div>
+                <p>I am here to review this University</p>
+                <h3>Seema Pareek</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- cta -->
+    <section class="cta">
+        <h1>Enroll for our various online courses <br>
+        Anywhere from the World</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website is made by krishna pareek <br> for other queries contact us</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> Krishna Pareek</p>
+    </section>
+
+ 
+
+
+ <!-- Script -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+          function ShowMenu(){
+            navLinks.style.right="0";
+          }
+
+         function HideMenu(){
+            navLinks.style.right="-200px";
+          }
+    </script>
+
+</body>
+</html>
